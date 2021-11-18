@@ -1,0 +1,9 @@
+n=int(input("enter"))
+j=1
+while j<=n:
+    i=1
+    while i<=10:
+        m=j*i
+        print(j,"*",i,"=",m)
+        i=i+1
+    j=j+1
